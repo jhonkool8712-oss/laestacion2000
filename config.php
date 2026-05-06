@@ -1,8 +1,8 @@
 <?php
 // Configuración de conexión MySQL para Alwaysdata
-$host = 'localhost';
-$username = 'TU_USUARIO';
-$password = 'TU_CONTRASENA';
+$host = 'jhonatan1_laestacion2000';
+$username = 'jhonathan1';
+$password = 'clase123';
 $database = 'restaurant_db';
 
 $mysqli = new mysqli($host, $username, $password, $database);
