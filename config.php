@@ -4,7 +4,7 @@
 $host = 'mysql-jhonatan1.alwaysdata.net';
 $username = 'jhonatan1';
 $password = 'clase123';
-$database = 'jhonatan1_restaurant_db';
+$database = 'restaurant_db';
 
 $mysqli = new mysqli($host, $username, $password, $database);
 if ($mysqli->connect_errno) {
