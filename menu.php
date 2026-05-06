@@ -40,7 +40,7 @@ if ($result) {
           <h2 style="margin-top: 2rem; color: #ff7d2a; text-transform: uppercase; letter-spacing: 0.12em;"><?= htmlspecialchars($currentCategory) ?></h2>
         <?php endif; ?>
         <article class="card">
-          <h3><?= htmlspecialchars($item['name']) ?> <span style="float:right; color:#ff7d2a;">$<?= number_format($item['price'], 2) ?></span></h3>
+          <h3><?= htmlspecialchars($item['name']) ?> <span style="float:right; color:#ff7d2a;">COP <?= number_format($item['price'], 0, ',', '.') ?></span></h3>
           <p><?= htmlspecialchars($item['description']) ?></p>
         </article>
       <?php endforeach; ?>

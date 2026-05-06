@@ -13,13 +13,13 @@ CREATE TABLE IF NOT EXISTS menu_items (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO menu_items (category, name, description, price) VALUES
-('Entradas', 'Bruschetta de tomate', 'Pan crocante con tomate, albahaca y aceite de oliva.', 8.50),
-('Entradas', 'Ceviche tropical', 'Mariscos frescos con lima, mango y cilantro.', 12.90),
-('Principales', 'Pollo al horno con especias', 'Pechuga jugosa con puré cremoso y vegetales al vapor.', 16.80),
-('Principales', 'Risotto de champiñones', 'Arroz cremoso con setas silvestres y queso parmesano.', 15.90),
-('Principales', 'Filete de salmón', 'Salmón a la plancha con salsa de hierbas y ensalada fresca.', 18.50),
-('Postres', 'Tarta de limón', 'Base crujiente con crema de limón y merengue tostado.', 7.20),
-('Postres', 'Brownie con helado', 'Brownie caliente servido con helado de vainilla.', 7.80);
+('Entradas', 'Bruschetta de tomate', 'Pan crocante con tomate, albahaca y aceite de oliva.', 8500.00),
+('Entradas', 'Ceviche tropical', 'Mariscos frescos con lima, mango y cilantro.', 12900.00),
+('Principales', 'Pollo al horno con especias', 'Pechuga jugosa con puré cremoso y vegetales al vapor.', 16800.00),
+('Principales', 'Risotto de champiñones', 'Arroz cremoso con setas silvestres y queso parmesano.', 15900.00),
+('Principales', 'Filete de salmón', 'Salmón a la plancha con salsa de hierbas y ensalada fresca.', 18500.00),
+('Postres', 'Tarta de limón', 'Base crujiente con crema de limón y merengue tostado.', 7200.00),
+('Postres', 'Brownie con helado', 'Brownie caliente servido con helado de vainilla.', 7800.00);
 
 CREATE TABLE IF NOT EXISTS reservations (
   id INT AUTO_INCREMENT PRIMARY KEY,
