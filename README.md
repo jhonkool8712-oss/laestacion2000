@@ -14,17 +14,17 @@ Aplicación web de restaurante en PHP y MySQL, lista para desplegar desde GitHub
 
 ## Configuración MySQL
 
-1. En tu panel de Alwaysdata, crea una base de datos `restaurant_db` o el nombre que prefieras.
+1. En tu panel de Alwaysdata, crea una base de datos `jhonatan1_restaurant_db` o el nombre que prefieras.
 2. Ajusta `config.php` con tus credenciales de Alwaysdata.
 3. Importa `db.sql` en la base de datos.
 
 Ejemplo de host Alwaysdata:
 
 ```php
-$host = 'mysql-usuario.alwaysdata.net';
-$username = 'usuario';
+$host = 'mysql-jhonatan1.alwaysdata.net';
+$username = 'jhonatan1';
 $password = 'tu_password';
-$database = 'usuario_restaurant_db';
+$database = 'jhonatan1_restaurant_db';
 ```
 
 ## Despliegue con GitHub Actions y Alwaysdata
