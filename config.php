@@ -3,7 +3,7 @@
 $host = 'jhonatan1_laestacion2000';
 $username = 'jhonathan1';
 $password = 'clase123';
-$database = 'restaurant_db';
+$database = 'laestacion2000_db';
 
 $mysqli = new mysqli($host, $username, $password, $database);
 if ($mysqli->connect_errno) {
