@@ -11,12 +11,15 @@ Aplicación web de restaurante en PHP y MySQL, lista para desplegar desde GitHub
 - `submit_reservation.php` - Guarda reservas en la base de datos.
 - `config.php` - Conexión MySQL (ajusta usuario/contraseña/host).
 - `db.sql` - Esquema MySQL para crear tablas y contenido inicial.
+- `init_db.php` - Script para inicializar la base de datos automáticamente.
 
 ## Configuración MySQL
 
-1. En tu panel de Alwaysdata, crea una base de datos `jhonatan1_restaurant_db` o el nombre que prefieras.
-2. Ajusta `config.php` con tus credenciales de Alwaysdata.
-3. Importa `db.sql` en la base de datos.
+1. En tu panel de Alwaysdata, crea una base de datos `jhonatan1_restaurant_db`
+2. Importa `db.sql` en la base de datos usando phpMyAdmin o la herramienta de importación de Alwaysdata
+3. **Opcional:** Ejecuta `init_db.php` desde tu navegador para inicializar automáticamente la base de datos
+
+**Importante:** Una vez inicializada la base de datos, elimina o protege `init_db.php` por seguridad.
 
 Ejemplo de host Alwaysdata:
 

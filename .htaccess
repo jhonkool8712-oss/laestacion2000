@@ -1,0 +1,9 @@
+# Proteger archivos sensibles
+<Files "init_db.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Configuración básica para PHP
+DirectoryIndex index.html index.php
+ErrorDocument 404 /index.html
