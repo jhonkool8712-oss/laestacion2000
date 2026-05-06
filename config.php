@@ -2,9 +2,9 @@
 // Configuración de conexión MySQL para Alwaysdata
 // En Alwaysdata, usa el hostname completo: mysql-usuario.alwaysdata.net
 $host = 'mysql-jhonatan1.alwaysdata.net';
-$username = 'jhonathan1';
+$username = 'jhonatan1';
 $password = 'clase123';
-$database = 'restaurant_db';
+$database = 'jhonatan1_restaurant_db';
 
 $mysqli = new mysqli($host, $username, $password, $database);
 if ($mysqli->connect_errno) {
