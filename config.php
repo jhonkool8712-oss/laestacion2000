@@ -1,7 +1,7 @@
 <?php
 // Configuración de conexión MySQL para Alwaysdata
 // En Alwaysdata, usa el hostname completo: mysql-usuario.alwaysdata.net
-$host = 'mysql-jhonathan1.alwaysdata.net';
+$host = ' ftp-jhonatan1.alwaysdata.net';
 $username = 'jhonathan1';
 $password = 'clase123';
 $database = 'laestacion2000_db';
