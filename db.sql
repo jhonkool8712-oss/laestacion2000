@@ -1,8 +1,8 @@
 -- Base de datos para La Estación 2000
 -- Crea la base y las tablas en MySQL
 
-CREATE DATABASE IF NOT EXISTS restaurant_db CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE restaurant_db;
+CREATE DATABASE IF NOT EXISTS jhonatan1_restaurant_db CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE jhonatan1_restaurant_db;
 
 CREATE TABLE IF NOT EXISTS menu_items (
   id INT AUTO_INCREMENT PRIMARY KEY,
